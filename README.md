@@ -81,21 +81,21 @@ SKU attributes dynamically pulled using VLOOKUP.
 ### 5. Pick Zone Velocity Analysis
 Pivot table summarizing weekly pick volume by pick zone.
 
-![Pivot](screenshots/05_pivot_pick_zone_summary.png)
+![Pivot – Weekly Picks by Pick Zone](screenshots/05_pivot_pick_zone_summary.png)
 
 ---
 
 ### 6. Interactive Filtering
 Analysis dynamically updates based on Category, Handling, and Hazmat filters.
 
-![Filters](screenshots/06_pivot_filters_in_use.png)
+![Filters – Category, Handling, Hazmat](screenshots/06_pivot_filters_in_use.png)
 
 ---
 
 ### 7. % of Volume Visualization
 Conditional formatting highlights velocity concentration.
 
-![Heatmap](screenshots/07_percent_of_volume_heatmap.png)
+![Heatmap – % of Volume by Zone](screenshots/07_percent_of_volume_heatmap.png)
 
 ## Repository Structure
 dc-slotting-space-management-portfolio/
