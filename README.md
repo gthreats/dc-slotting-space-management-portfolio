@@ -47,7 +47,55 @@ This portfolio intentionally emphasizes Excel as a decision-support tool, includ
 
 VLOOKUP Usage
 SKU attributes are also populated using VLOOKUP with exact match against a master reference table to demonstrate traditional Excel lookup proficiency.
+
+## Excel Slotting Model – Visual Walkthrough
+
+### 1. Master Data & Controlled Lists
+This tab defines controlled values used across the model to enforce data discipline.
+
+![LEGEND](screenshots/01_legend_controlled_lists.png)
+
 ---
+
+### 2. Raw SKU Data Structure
+SKU-level operational inputs including picks, cube, weight, and pick zone.
+
+![Data_Raw](screenshots/02_data_raw_table.png)
+
+---
+
+### 3. Data Validation Controls
+Dropdowns enforce standardized Category, Handling Type, and Hazmat flags.
+
+![Dropdowns](screenshots/03_data_validation_dropdowns.png)
+
+---
+
+### 4. VLOOKUP Master Data Mapping
+SKU attributes dynamically pulled using VLOOKUP.
+
+![VLOOKUP](screenshots/04_vlookup_formula_visible.png)
+
+---
+
+### 5. Pick Zone Velocity Analysis
+Pivot table summarizing weekly pick volume by pick zone.
+
+![Pivot](screenshots/05_pivot_pick_zone_summary.png)
+
+---
+
+### 6. Interactive Filtering
+Analysis dynamically updates based on Category, Handling, and Hazmat filters.
+
+![Filters](screenshots/06_pivot_filters_in_use.png)
+
+---
+
+### 7. % of Volume Visualization
+Conditional formatting highlights velocity concentration.
+
+![Heatmap](screenshots/07_percent_of_volume_heatmap.png)
 
 ## Repository Structure
 dc-slotting-space-management-portfolio/
