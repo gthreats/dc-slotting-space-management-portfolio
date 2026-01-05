@@ -100,15 +100,15 @@ Conditional formatting highlights velocity concentration.
 ## Repository Structure
 dc-slotting-space-management-portfolio/
 
-── 01_strategy/
-── 02_velocity/
-── 03_optimization/
-── 04_capacity/
-── 05_replenishment/
-── 06_safety/
-── 07_seasonal/
-── 08_kpis/
-── 09_leadership/
+### 01_strategy/
+### 02_velocity/
+### 03_optimization/
+### 04_capacity/
+### 05_replenishment/
+### 06_safety/
+### 07_seasonal/
+### 08_kpis/
+### 09_leadership/
 ── README.md
 
 
