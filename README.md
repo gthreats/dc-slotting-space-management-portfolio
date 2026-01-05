@@ -45,6 +45,8 @@ This portfolio intentionally emphasizes Excel as a decision-support tool, includ
 - Capacity planning for seasonal and peak demand  
 - KPI definition and review cadence  
 
+VLOOKUP Usage
+SKU attributes are also populated using VLOOKUP with exact match against a master reference table to demonstrate traditional Excel lookup proficiency.
 ---
 
 ## Repository Structure
