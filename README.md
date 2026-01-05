@@ -124,5 +124,6 @@ All examples in this repository are fictional and for demonstration purposes onl
 
 **Geoffrey Threats**  
 MBA -ERP, MS - MIS, MS -Advanced Data Analytics
+---
 Distribution Center Operations | Slotting & Space Management | Analytics-Driven Leadership
 
