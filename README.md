@@ -176,7 +176,6 @@ Outcome: Slotting decisions move from reactive, manual reviews to proactive, rul
 
 ## How I’d Operationalize This in 30–60–90 Days
 
-This section should come immediately after the WMS improvement section.
 
 30–60–90 Day Slotting & Space Optimization Plan
 
