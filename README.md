@@ -24,6 +24,10 @@ This portfolio was created to showcase how I would approach a **Manager, Distrib
 The focus is on practical execution, measurable impact, and cross-functional alignment with Operations, IT, Safety, and Inventory Planning teams.
 
 ---
+## Execution Framework
+
+- 📘 [30-60-90 Day Slotting & Space Management Execution Plan](docs/30-60-90-slotting-execution-plan.md)
+
 
 ## Tools & Skills Demonstrated
 
