@@ -99,7 +99,164 @@ Pick-face cube utilization identifies over-capacity SKUs and flags congestion ri
 Executive-level summary consolidates velocity, congestion, and Hazmat exposure metrics for leadership review.
 ![Pivot Summary Leadership](screenshots/11-pivot-summary-leadership.png)
 
+his Excel-based model is intentionally designed to mirror how slotting and space management decisions are made in a live WMS environment. With direct access to SAP or SAP S/4HANA WMS data, the following enhancements would be implemented to operationalize and automate decision-making.
 
+1️⃣ Real-Time Velocity & Demand Signals
+
+Replace static weekly picks with rolling demand windows (7 / 14 / 28 days) sourced directly from SAP:
+
+Outbound deliveries
+
+Pick confirmation data
+
+Identify short-term velocity spikes to proactively:
+
+Adjust pick-face sizing
+
+Reassign pick zones before congestion occurs
+
+2️⃣ Pick-Face Capacity & Replenishment Triggers
+
+Leverage SAP bin master data (bin cube, max quantity, UOM) to calculate true bin saturation
+
+Convert the “Over Capacity” flag from a static indicator into:
+
+Automated replenishment triggers
+
+Re-slotting recommendations
+
+3️⃣ Labor & Travel Optimization
+
+Combine pick frequency with:
+
+Travel path data
+
+Task interleaving logic
+
+Identify congestion hot spots within pick modules
+
+Re-slot high-velocity SKUs closer to:
+
+Induction points
+
+Golden zones
+
+High-efficiency pick paths
+
+Reduce picker travel time, fatigue, and congestion-related delays
+
+4️⃣ Safety & Hazmat Enforcement
+
+Enforce Hazmat slotting rules using SAP:
+
+Material master attributes
+
+Dangerous goods indicators
+
+Automatically prevent Hazmat SKUs from being slotted into:
+
+High-traffic zones
+
+Ergonomically unsafe locations
+
+5️⃣ Exception-Based Management
+
+Shift leadership focus from reviewing all SKUs to reviewing only exceptions, such as:
+
+Over-capacity pick faces
+
+Hazmat SKUs in non-compliant zones
+
+A-items outside fast pick zones
+
+These exceptions would be surfaced through dashboards, not spreadsheets.
+
+Outcome: Slotting decisions move from reactive, manual reviews to proactive, rules-driven execution embedded directly within WMS workflows.
+
+🚀 How I’d Operationalize This in 30–60–90 Days
+
+This section should come immediately after the WMS improvement section.
+
+30–60–90 Day Slotting & Space Optimization Plan
+
+This phased approach focuses on quick wins, operational alignment, and sustainable improvement while minimizing disruption to daily DC operations.
+
+🗓️ First 30 Days — Baseline & Stabilization
+
+Primary Focus: Visibility, trust in data, and safety
+
+Validate current slotting logic, bin standards, and pick-zone definitions within SAP
+
+Establish baseline KPIs:
+
+% of SKUs over pick-face capacity
+
+% of A-items outside fast pick zones
+
+Hazmat slotting compliance
+
+Identify the top 10–20 high-impact SKUs driving:
+
+Congestion
+
+Excessive replenishment
+
+Align with Operations, Safety, and IT on slotting rules and constraints
+
+Deliverables
+
+Slotting baseline report
+
+Initial congestion and safety risk list
+
+Agreed-upon slotting standards
+
+🗓️ Days 31–60 — Optimization & Execution
+
+Primary Focus: Reducing congestion and improving flow
+
+Re-slot A-items into fast pick zones using verified velocity data
+
+Expand or split pick faces for chronic over-capacity SKUs
+
+Implement Hazmat-specific reserve or controlled zones
+
+Introduce a weekly slotting review cadence driven by exceptions, not full SKU lists
+
+Deliverables
+
+Measurable reduction in over-capacity SKUs
+
+Updated slotting playbook
+
+Weekly exception dashboard
+
+🗓️ Days 61–90 — Automation & Sustainability
+
+Primary Focus: Scale and automation
+
+Automate:
+
+Velocity ranking
+
+Slotting exception reporting
+using SAP extracts or reporting tools
+
+Integrate slotting KPIs into standard DC performance reviews
+
+Partner with IT to embed slotting rules into SAP task logic where feasible
+
+Prepare seasonal and peak-volume slotting strategies
+
+Deliverables
+
+Automated slotting exception reports
+
+Leadership-ready KPI dashboard
+
+Peak readiness slotting plan
+
+Outcome: Slotting and space management becomes a continuous, data-driven process instead of a periodic cleanup activity.
 
 ---
 
