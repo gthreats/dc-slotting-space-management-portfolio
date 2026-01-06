@@ -55,65 +55,37 @@ SKU attributes are also populated using VLOOKUP with exact match against a maste
 ## Excel Slotting Model – Visual Walkthrough
 
 ### 1. Master Data & Controlled Lists
-This tab defines controlled values used across the model to enforce data discipline.
-
-![LEGEND](screenshots/01_legend_controlled_lists.png)
-
----
+![Legend Controlled Lists](screenshots/01-legend-controlled-lists.png)
 
 ### 2. Raw SKU Data Structure
-SKU-level operational inputs including picks, cube, weight, and pick zone.
-
-![Data_Raw](screenshots/02_data_raw_table.png)
-
----
+![Data Raw Table](screenshots/02-data-raw-table.png)
 
 ### 3. Data Validation Controls
-Dropdowns enforce standardized Category, Handling Type, and Hazmat flags.
-
-![Dropdowns](screenshots/03_data_validation_dropdowns.png)
-
----
+![Data Validation Dropdowns](screenshots/03-data-validation-dropdowns.png)
 
 ### 4. VLOOKUP Master Data Mapping
-SKU attributes dynamically pulled using VLOOKUP.
-
-![VLOOKUP](screenshots/04_vlookup_formula_visible.png)
-
----
+![VLOOKUP Formula Visible](screenshots/04-vlookup-formula-visible.png)
 
 ### 5. Pick Zone Velocity Analysis
-Pivot table summarizing weekly pick volume by pick zone.
-
-![Pivot – Weekly Picks by Pick Zone](screenshots/05_pivot_pick_zone_summary.png)
-
----
+![Pivot Picks by Zone](screenshots/05-pivot-picks-by-zone.png)
 
 ### 6. Interactive Filtering
-Analysis dynamically updates based on Category, Handling, and Hazmat filters.
-
-![Filters – Category, Handling, Hazmat](screenshots/06_pivot_filters_in_use.png)
-
----
+![Pivot Filters](screenshots/06-pivot-filters.png)
 
 ### 7. % of Volume Visualization
-Conditional formatting highlights velocity concentration.
-
-![Heatmap – % of Volume by Zone](screenshots/07_percent_of_volume_heatmap.png)
-
-## Visual Walkthrough
+![Percent Volume Heatmap](screenshots/07-percent-volume-heatmap.png)
 
 ### 8. ABC Classification & Velocity Analysis
-![ABC Classification](screenshots/abc-classification.png)
+![ABC Classification](screenshots/08-abc-classification.png)
 
 ### 9. Slotting & Hazmat Decision Logic
-![Slotting Hazmat Logic](screenshots/slotting-hazmat-logic.png)
+![Slotting Hazmat Logic](screenshots/09-slotting-hazmat-logic.png)
 
 ### 10. Pick-Face Utilization & Congestion Risk
-![Pick Face Utilization](screenshots/pick-face-utilization.png)
+![Pick Face Utilization](screenshots/10-pick-face-utilization.png)
 
 ### 11. Leadership Pivot Summary
-![Pivot Summary](screenshots/pivot-summary.png)
+![Pivot Summary Leadership](screenshots/11-pivot-summary-leadership.png)
 
 
 
