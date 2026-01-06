@@ -7,6 +7,20 @@ This repository demonstrates my approach to distribution center slotting, space 
 All data used is mock or simulated and intended solely to demonstrate analytical methods, operational thinking, and leadership approach. No proprietary systems, layouts, or datasets are included.
 
 ---
+## Download the Excel Model
+
+The full Excel-based slotting and space management model used in this portfolio is available for download below.
+
+[Download the Excel Slotting & Space Management Model](docs/DC_Slotting_Space_Management_Model.xlsx)
+
+The spreadsheet includes:
+- Controlled master data lists
+- SKU-level operational inputs
+- ABC classification logic
+- Pick-face capacity and utilization analysis
+- Hazmat slotting controls
+- Leadership-ready pivot summaries
+---
 
 ## Purpose of This Portfolio
 
@@ -74,7 +88,9 @@ SKU attributes are also populated using VLOOKUP with exact match against a maste
 ## Execution Framework
 
 - 📘 [30-60-90 Day Slotting & Space Management Execution Plan](docs/30-60-90-slotting-execution-plan.md)
+  
 
+All screenshots below are taken directly from the Excel model linked above and represent a simulated but WMS-aligned slotting environment.
 ## Excel Slotting Model – Visual Walkthrough
 
 ### 1. Master Data & Controlled Lists
