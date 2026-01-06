@@ -259,7 +259,114 @@ Peak readiness slotting plan
 Outcome: Slotting and space management becomes a continuous, data-driven process instead of a periodic cleanup activity.
 
 ---
+Slotting and Space Management KPIs
 
+What We Measure, Why It Matters, and How Often We Review It
+
+Effective slotting is not about constant rework. It is about monitoring the right signals at the right cadence. The KPIs below are intentionally selected to balance operational stability, flow efficiency, safety, and scalability, while reducing unnecessary management noise over time.
+---
+Weekly KPIs – Tactical Control
+
+Audience: Operations Managers, Inventory Control, Floor Leadership
+Purpose: Detect and resolve issues early before they impact service, labor, or safety
+
+Percent of SKUs Over Pick-Face Capacity
+
+Why this matters
+This metric identifies congestion risk, overflow picking, and excessive replenishment activity. Over-capacity pick faces are a leading indicator of inefficiency and operational friction.
+
+Action taken
+Trigger targeted re-slotting, pick-face expansion, or replenishment frequency adjustments.
+---
+Percent of A-Items Outside Fast Pick Zones
+
+Why this matters
+High-velocity SKUs account for a disproportionate share of labor and travel time. When A-items are not placed in fast or golden zones, avoidable waste is introduced into the picking process.
+
+Action taken
+Prioritize re-slotting A-items into appropriate high-efficiency pick zones.
+---
+Weekly Replenishment Frequency by SKU
+
+Why this matters
+Excessive replenishment indicates poor slot sizing or misalignment between demand and pick-face capacity. This drives additional labor, congestion, and error risk.
+
+Action taken
+Resize pick faces or adjust stocking strategies to stabilize inventory flow.
+---
+Monthly KPIs – Optimization and Trend Analysis
+
+Audience: Distribution Center Leadership, Continuous Improvement, Planning
+Purpose: Validate improvements and prevent regression
+
+Pick-Face Utilization Distribution
+
+Why this matters
+This KPI confirms whether pick faces are underutilized, overutilized, or properly sized. It ensures that available cube is aligned with actual demand.
+
+Action taken
+Refine slotting standards, cube assignments, or layout strategies.
+---
+Congestion Risk by Pick Zone
+
+Why this matters
+Zone-level congestion highlights structural flow issues rather than isolated SKU problems. It supports informed decisions related to zone balancing and layout adjustments.
+
+Action taken
+Rebalance zones or adjust labor deployment strategies.
+---
+Hazmat Slotting Compliance Rate
+
+Why this matters
+Hazmat compliance carries zero tolerance. This metric ensures hazardous materials remain in approved, controlled locations and reduces safety and regulatory risk.
+
+Action taken
+Immediate corrective action and escalation if compliance thresholds are breached.
+---
+Quarterly KPIs – Strategic Alignment
+
+Audience: Senior Leadership, Engineering, Information Technology
+Purpose: Ensure slotting strategy supports growth, seasonality, and scalability
+
+Slotting Stability Index
+
+Percent of SKUs requiring re-slotting over the quarter
+
+Why this matters
+High slotting churn signals unstable demand modeling or poor slot design. Stability indicates a mature, well-governed slotting strategy.
+
+Action taken
+Reassess velocity thresholds, slotting rules, or replenishment logic.
+---
+Labor Efficiency Impact from Slotting Changes
+
+Why this matters
+This KPI directly links slotting decisions to productivity and cost outcomes. It justifies continued investment in slotting optimization initiatives.
+
+Action taken
+Scale successful slotting strategies and retire low-impact changes.
+---
+Seasonal Readiness Score
+
+Why this matters
+This metric evaluates preparedness for peak seasons, promotions, or assortment changes. It prevents reactive re-slotting during high-volume periods.
+
+Action taken
+Execute pre-peak slotting adjustments and reserve capacity planning.
+---
+KPI Focus Philosophy
+
+As slotting maturity increases, manual oversight should decrease.
+
+Weekly reviews focus on tactical exceptions only.
+Monthly reviews validate trends and optimization efforts.
+Quarterly reviews address strategy, automation, and scalability.
+
+The objective is not to review more data, but to review fewer, higher-quality exceptions.
+---
+Outcome
+
+Slotting and space management evolves from reactive, manual intervention into a continuous, data-driven process that is embedded into daily operations and aligned with leadership decision-making.
 ## Disclaimer
 
 All examples in this repository are fictional and for demonstration purposes only. They are not based on any specific company’s proprietary data, layouts, systems, or processes.
