@@ -275,7 +275,7 @@ Percent of SKUs Over Pick-Face Capacity
 Why this matters
 This metric identifies congestion risk, overflow picking, and excessive replenishment activity. Over-capacity pick faces are a leading indicator of inefficiency and operational friction.
 
-Action taken
+Action taken -
 Trigger targeted re-slotting, pick-face expansion, or replenishment frequency adjustments.
 ---
 Percent of A-Items Outside Fast Pick Zones
@@ -283,7 +283,7 @@ Percent of A-Items Outside Fast Pick Zones
 Why this matters
 High-velocity SKUs account for a disproportionate share of labor and travel time. When A-items are not placed in fast or golden zones, avoidable waste is introduced into the picking process.
 
-Action taken
+Action taken -
 Prioritize re-slotting A-items into appropriate high-efficiency pick zones.
 ---
 Weekly Replenishment Frequency by SKU
@@ -291,7 +291,7 @@ Weekly Replenishment Frequency by SKU
 Why this matters
 Excessive replenishment indicates poor slot sizing or misalignment between demand and pick-face capacity. This drives additional labor, congestion, and error risk.
 
-Action taken
+Action taken -
 Resize pick faces or adjust stocking strategies to stabilize inventory flow.
 ---
 Monthly KPIs – Optimization and Trend Analysis
@@ -304,7 +304,7 @@ Pick-Face Utilization Distribution
 Why this matters
 This KPI confirms whether pick faces are underutilized, overutilized, or properly sized. It ensures that available cube is aligned with actual demand.
 
-Action taken
+Action taken -
 Refine slotting standards, cube assignments, or layout strategies.
 ---
 Congestion Risk by Pick Zone
@@ -312,7 +312,7 @@ Congestion Risk by Pick Zone
 Why this matters
 Zone-level congestion highlights structural flow issues rather than isolated SKU problems. It supports informed decisions related to zone balancing and layout adjustments.
 
-Action taken
+Action taken -
 Rebalance zones or adjust labor deployment strategies.
 ---
 Hazmat Slotting Compliance Rate
@@ -320,7 +320,7 @@ Hazmat Slotting Compliance Rate
 Why this matters
 Hazmat compliance carries zero tolerance. This metric ensures hazardous materials remain in approved, controlled locations and reduces safety and regulatory risk.
 
-Action taken
+Action taken -
 Immediate corrective action and escalation if compliance thresholds are breached.
 ---
 Quarterly KPIs – Strategic Alignment
@@ -335,7 +335,7 @@ Percent of SKUs requiring re-slotting over the quarter
 Why this matters
 High slotting churn signals unstable demand modeling or poor slot design. Stability indicates a mature, well-governed slotting strategy.
 
-Action taken
+Action taken -
 Reassess velocity thresholds, slotting rules, or replenishment logic.
 ---
 Labor Efficiency Impact from Slotting Changes
@@ -343,7 +343,7 @@ Labor Efficiency Impact from Slotting Changes
 Why this matters
 This KPI directly links slotting decisions to productivity and cost outcomes. It justifies continued investment in slotting optimization initiatives.
 
-Action taken
+Action taken -
 Scale successful slotting strategies and retire low-impact changes.
 ---
 Seasonal Readiness Score
@@ -351,7 +351,7 @@ Seasonal Readiness Score
 Why this matters
 This metric evaluates preparedness for peak seasons, promotions, or assortment changes. It prevents reactive re-slotting during high-volume periods.
 
-Action taken
+Action taken -
 Execute pre-peak slotting adjustments and reserve capacity planning.
 ---
 KPI Focus Philosophy
