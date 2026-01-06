@@ -99,9 +99,10 @@ Pick-face cube utilization identifies over-capacity SKUs and flags congestion ri
 Executive-level summary consolidates velocity, congestion, and Hazmat exposure metrics for leadership review.
 ![Pivot Summary Leadership](screenshots/11-pivot-summary-leadership.png)
 
-his Excel-based model is intentionally designed to mirror how slotting and space management decisions are made in a live WMS environment. With direct access to SAP or SAP S/4HANA WMS data, the following enhancements would be implemented to operationalize and automate decision-making.
+# What I’d Improve With Live WMS Data (SAP / SAP S/4HANA)
+This Excel-based model is intentionally designed to mirror how slotting and space management decisions are made in a live WMS environment. With direct access to SAP or SAP S/4HANA WMS data, the following enhancements would be implemented to operationalize and automate decision-making.
 
-1️⃣ Real-Time Velocity & Demand Signals
+## 1. Real-Time Velocity & Demand Signals
 
 Replace static weekly picks with rolling demand windows (7 / 14 / 28 days) sourced directly from SAP:
 
@@ -115,7 +116,7 @@ Adjust pick-face sizing
 
 Reassign pick zones before congestion occurs
 
-2️⃣ Pick-Face Capacity & Replenishment Triggers
+## 2. Pick-Face Capacity & Replenishment Triggers
 
 Leverage SAP bin master data (bin cube, max quantity, UOM) to calculate true bin saturation
 
@@ -125,7 +126,7 @@ Automated replenishment triggers
 
 Re-slotting recommendations
 
-3️⃣ Labor & Travel Optimization
+## 3. Labor & Travel Optimization
 
 Combine pick frequency with:
 
@@ -145,7 +146,7 @@ High-efficiency pick paths
 
 Reduce picker travel time, fatigue, and congestion-related delays
 
-4️⃣ Safety & Hazmat Enforcement
+## 4. Safety & Hazmat Enforcement
 
 Enforce Hazmat slotting rules using SAP:
 
@@ -159,7 +160,7 @@ High-traffic zones
 
 Ergonomically unsafe locations
 
-5️⃣ Exception-Based Management
+## 5. Exception-Based Management
 
 Shift leadership focus from reviewing all SKUs to reviewing only exceptions, such as:
 
@@ -173,7 +174,7 @@ These exceptions would be surfaced through dashboards, not spreadsheets.
 
 Outcome: Slotting decisions move from reactive, manual reviews to proactive, rules-driven execution embedded directly within WMS workflows.
 
-🚀 How I’d Operationalize This in 30–60–90 Days
+## How I’d Operationalize This in 30–60–90 Days
 
 This section should come immediately after the WMS improvement section.
 
@@ -181,7 +182,7 @@ This section should come immediately after the WMS improvement section.
 
 This phased approach focuses on quick wins, operational alignment, and sustainable improvement while minimizing disruption to daily DC operations.
 
-🗓️ First 30 Days — Baseline & Stabilization
+## First 30 Days — Baseline & Stabilization
 
 Primary Focus: Visibility, trust in data, and safety
 
@@ -211,7 +212,7 @@ Initial congestion and safety risk list
 
 Agreed-upon slotting standards
 
-🗓️ Days 31–60 — Optimization & Execution
+## Days 31–60 — Optimization & Execution
 
 Primary Focus: Reducing congestion and improving flow
 
@@ -231,7 +232,7 @@ Updated slotting playbook
 
 Weekly exception dashboard
 
-🗓️ Days 61–90 — Automation & Sustainability
+## Days 61–90 — Automation & Sustainability
 
 Primary Focus: Scale and automation
 
