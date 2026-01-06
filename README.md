@@ -56,38 +56,48 @@ SKU attributes are also populated using VLOOKUP with exact match against a maste
 ## Excel Slotting Model – Visual Walkthrough
 
 ### 1. Master Data & Controlled Lists
+Centralized reference lists enforce standardized Category, Handling Type, and Hazmat values across the model to prevent inconsistent slotting logic.
 ![Legend Controlled Lists](screenshots/01-legend-controlled-lists.png)
 
 ### 2. Raw SKU Data Structure
+SKU-level operational inputs including weekly picks, cube, weight, current location, and pick zone used as the foundation for all downstream analysis.
 ![Data Raw Table](screenshots/02-data-raw-table.png)
 
 ### 3. Data Validation Controls
+Dropdown controls restrict user input to approved values, reducing data quality issues and supporting scalable operational use.
 ![Data Validation Dropdowns](screenshots/03-data-validation-dropdowns.png)
 
 ### 4. VLOOKUP Master Data Mapping
+Exact-match VLOOKUP logic dynamically populates SKU attributes to simulate WMS-aligned master data relationships.
 ![VLOOKUP Formula Visible](screenshots/04-vlookup-formula-visible.png)
 
 ### 5. Pick Zone Velocity Analysis
+Pivot table summarizes weekly pick volume by pick zone to identify high-traffic areas and potential congestion risk.
 ![Pivot Picks by Zone](screenshots/05-pivot-picks-by-zone.png)
 
 ### 6. Interactive Filtering
+Interactive filters allow analysis by Category, Handling Type, and Hazmat status to support cross-functional decision reviews.
 ![Pivot Filters](screenshots/06-pivot-filters.png)
 
 ### 7. % of Volume Visualization
+Conditional formatting highlights velocity concentration to support ABC classification and zone rebalancing decisions.
 ![Percent Volume Heatmap](screenshots/07-percent-volume-heatmap.png)
 
 ### 8. ABC Classification & Velocity Analysis
+ABC logic ranks SKUs by cumulative pick volume to guide slotting priority and pick-face allocation.
 ![ABC Classification](screenshots/08-abc-classification.png)
 
 ### 9. Slotting & Hazmat Decision Logic
+Rule-based logic assigns slotting zones while overriding standard placement for Hazmat SKUs to enforce safety controls.
 ![Slotting Hazmat Logic](screenshots/09-slotting-hazmat-logic.png)
 
 ### 10. Pick-Face Utilization & Congestion Risk
+Pick-face cube utilization identifies over-capacity SKUs and flags congestion risk requiring re-slotting or face expansion.
 ![Pick Face Utilization](screenshots/10-pick-face-utilization.png)
 
 ### 11. Leadership Pivot Summary
+Executive-level summary consolidates velocity, congestion, and Hazmat exposure metrics for leadership review.
 ![Pivot Summary Leadership](screenshots/11-pivot-summary-leadership.png)
-
 
 
 
