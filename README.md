@@ -101,19 +101,21 @@ Conditional formatting highlights velocity concentration.
 
 ![Heatmap – % of Volume by Zone](screenshots/07_percent_of_volume_heatmap.png)
 
-## Repository Structure
-dc-slotting-space-management-portfolio/
+## Visual Walkthrough
 
-### 01_strategy/
-### 02_velocity/
-### 03_optimization/
-### 04_capacity/
-### 05_replenishment/
-### 06_safety/
-### 07_seasonal/
-### 08_kpis/
-### 09_leadership/
-── README.md
+### 8. ABC Classification & Velocity Analysis
+![ABC Classification](screenshots/abc-classification.png)
+
+### 9. Slotting & Hazmat Decision Logic
+![Slotting Hazmat Logic](screenshots/slotting-hazmat-logic.png)
+
+### 10. Pick-Face Utilization & Congestion Risk
+![Pick Face Utilization](screenshots/pick-face-utilization.png)
+
+### 11. Leadership Pivot Summary
+![Pivot Summary](screenshots/pivot-summary.png)
+
+
 
 
 ---
