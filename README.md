@@ -24,8 +24,30 @@ This portfolio was created to showcase how I would approach a **Manager, Distrib
 The focus is on practical execution, measurable impact, and cross-functional alignment with Operations, IT, Safety, and Inventory Planning teams.
 
 ---
+How to Navigate This Repository
 
+This repository is designed to be reviewed in a logical, top-down flow that mirrors how slotting and space management decisions are made in a real distribution center environment.
 
+Readers should follow this order:
+
+Review the Overview and Purpose sections to understand the business intent and scope.
+
+Walk through the Excel Slotting Model – Visual Walkthrough to see how data flows from raw SKU inputs to leadership-level decisions.
+
+Review the Screenshots section in sequence to understand how each component supports operational decision-making.
+
+Read What I’d Improve With Live WMS Data to see how this model transitions from Excel to SAP or SAP S/4HANA.
+
+Finish with How I’d Operationalize This in 30–60–90 Days to understand execution, ownership, and scale.
+
+This structure is intentional and mirrors how I would onboard stakeholders into a slotting and space optimization initiative.
+
+Note on Screenshots
+
+The screenshots in this repository represent a simulated but WMS-aligned slotting and space management model.
+
+All logic, calculations, and KPIs are intentionally designed to reflect how decisions would be made using live SAP or SAP S/4HANA WMS data, while avoiding the use of proprietary systems, layouts, or datasets.
+---
 ## Tools & Skills Demonstrated
 
 ### Excel Proficiency
